@@ -827,7 +827,7 @@ configurationRegistry.registerConfiguration({
 		'window.nativeFullScreen': {
 			'type': 'boolean',
 			'default': true,
-			'description': nls.localize('window.nativeFullScreen', "Prefer native full-screen. Disable this option to prevent macOS from creating a new space when going full-screen."),
+			'description': nls.localize('window.nativeFullScreen', "Controls if native full-screen should be used on macOS. Disable this option to prevent macOS from creating a new space when going full-screen."),
 			'included': isMacintosh
 		},
 		'window.clickThroughInactive': {
